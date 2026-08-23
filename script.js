@@ -93,7 +93,7 @@ document.querySelectorAll(".waitlist-form").forEach((form) => {
       });
 
       if (response.ok) {
-        status.textContent = `You're on the list! We'll email ${email} when Crilo launches.`;
+        status.textContent = `You're on the list! We'll email ${email} when Crila launches.`;
         status.dataset.state = "success";
         form.reset();
       } else {
