@@ -325,10 +325,6 @@ h1 {
   text-align: left;
 }
 
-.price-card.featured {
-  border-color: var(--accent);
-}
-
 .price-head {
   display: flex;
   align-items: center;
