@@ -589,6 +589,11 @@ h1 {
     flex-direction: column;
   }
 
+  .form-row input[type="email"] {
+    flex: none;
+    width: 100%;
+  }
+
   .form-row button {
     width: 100%;
   }
